@@ -1,0 +1,32 @@
+body {
+	color: #000;
+	background-color: #fff;
+	font: 100%/1.2 sans-serif;
+}
+:link {
+	color: #1593D3;
+}
+:visited {
+	color: #38C;
+}
+.responsive-columntoggle td.title a, .responsive-swipe td.title a {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 10em;
+}
+
+@media (min-width: 40em) {
+td.title {
+	max-width: 12em;
+}
+.responsive-stack td.title a {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 10em;
+	max-width: 40vw;
+}
+}
